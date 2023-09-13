@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /maverik-test
+  port: 8080
+spring:
+  profiles:
+    active: development
+api:
+  url1: https://gateway.maverik.com/movie/api/movie/title/
+  url2: https://gateway.maverik.com/movie/api/movie/
